@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "HWCustomPopView.h"
 
 @interface ViewController ()
 
@@ -21,13 +22,11 @@
 
 - (IBAction)pop:(id)sender
 {
-    
+    [[HWCustomPopView new] showInLowWindowLevel];
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
 }
-
-
 @end

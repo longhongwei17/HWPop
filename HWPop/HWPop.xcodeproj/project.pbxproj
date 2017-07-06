@@ -15,6 +15,11 @@
 		1823D0301F0E800100C6EC14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1823D02E1F0E800100C6EC14 /* LaunchScreen.storyboard */; };
 		1823D03B1F0E800200C6EC14 /* HWPopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1823D03A1F0E800200C6EC14 /* HWPopTests.m */; };
 		1823D0461F0E800200C6EC14 /* HWPopUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1823D0451F0E800200C6EC14 /* HWPopUITests.m */; };
+		1823D0561F0E81A400C6EC14 /* HWPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1823D0551F0E81A400C6EC14 /* HWPopView.m */; };
+		1823D0591F0E88E900C6EC14 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 1823D0581F0E88E900C6EC14 /* UIImage+ImageEffects.m */; };
+		1823D05D1F0E897500C6EC14 /* HWCustomPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1823D05B1F0E897500C6EC14 /* HWCustomPopView.m */; };
+		1823D05E1F0E897500C6EC14 /* HWCustomPopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1823D05C1F0E897500C6EC14 /* HWCustomPopView.xib */; };
+		1823D0611F0E8C4E00C6EC14 /* UIImage+window.m in Sources */ = {isa = PBXBuildFile; fileRef = 1823D0601F0E8C4E00C6EC14 /* UIImage+window.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,15 @@
 		1823D0411F0E800200C6EC14 /* HWPopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HWPopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1823D0451F0E800200C6EC14 /* HWPopUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWPopUITests.m; sourceTree = "<group>"; };
 		1823D0471F0E800200C6EC14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1823D0541F0E81A400C6EC14 /* HWPopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWPopView.h; sourceTree = "<group>"; };
+		1823D0551F0E81A400C6EC14 /* HWPopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWPopView.m; sourceTree = "<group>"; };
+		1823D0571F0E88E900C6EC14 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		1823D0581F0E88E900C6EC14 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		1823D05A1F0E897400C6EC14 /* HWCustomPopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWCustomPopView.h; sourceTree = "<group>"; };
+		1823D05B1F0E897500C6EC14 /* HWCustomPopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWCustomPopView.m; sourceTree = "<group>"; };
+		1823D05C1F0E897500C6EC14 /* HWCustomPopView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HWCustomPopView.xib; sourceTree = "<group>"; };
+		1823D05F1F0E8C4E00C6EC14 /* UIImage+window.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+window.h"; sourceTree = "<group>"; };
+		1823D0601F0E8C4E00C6EC14 /* UIImage+window.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+window.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +115,7 @@
 		1823D01F1F0E800100C6EC14 /* HWPop */ = {
 			isa = PBXGroup;
 			children = (
+				1823D0531F0E818400C6EC14 /* HWPop */,
 				1823D0231F0E800100C6EC14 /* AppDelegate.h */,
 				1823D0241F0E800100C6EC14 /* AppDelegate.m */,
 				1823D0261F0E800100C6EC14 /* ViewController.h */,
@@ -110,6 +125,9 @@
 				1823D02E1F0E800100C6EC14 /* LaunchScreen.storyboard */,
 				1823D0311F0E800100C6EC14 /* Info.plist */,
 				1823D0201F0E800100C6EC14 /* Supporting Files */,
+				1823D05A1F0E897400C6EC14 /* HWCustomPopView.h */,
+				1823D05B1F0E897500C6EC14 /* HWCustomPopView.m */,
+				1823D05C1F0E897500C6EC14 /* HWCustomPopView.xib */,
 			);
 			path = HWPop;
 			sourceTree = "<group>";
@@ -138,6 +156,19 @@
 				1823D0471F0E800200C6EC14 /* Info.plist */,
 			);
 			path = HWPopUITests;
+			sourceTree = "<group>";
+		};
+		1823D0531F0E818400C6EC14 /* HWPop */ = {
+			isa = PBXGroup;
+			children = (
+				1823D0571F0E88E900C6EC14 /* UIImage+ImageEffects.h */,
+				1823D0581F0E88E900C6EC14 /* UIImage+ImageEffects.m */,
+				1823D05F1F0E8C4E00C6EC14 /* UIImage+window.h */,
+				1823D0601F0E8C4E00C6EC14 /* UIImage+window.m */,
+				1823D0541F0E81A400C6EC14 /* HWPopView.h */,
+				1823D0551F0E81A400C6EC14 /* HWPopView.m */,
+			);
+			path = HWPop;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,6 +277,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1823D05E1F0E897500C6EC14 /* HWCustomPopView.xib in Resources */,
 				1823D0301F0E800100C6EC14 /* LaunchScreen.storyboard in Resources */,
 				1823D02D1F0E800100C6EC14 /* Assets.xcassets in Resources */,
 				1823D02B1F0E800100C6EC14 /* Main.storyboard in Resources */,
@@ -273,9 +305,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1823D0611F0E8C4E00C6EC14 /* UIImage+window.m in Sources */,
+				1823D05D1F0E897500C6EC14 /* HWCustomPopView.m in Sources */,
 				1823D0281F0E800100C6EC14 /* ViewController.m in Sources */,
+				1823D0591F0E88E900C6EC14 /* UIImage+ImageEffects.m in Sources */,
 				1823D0251F0E800100C6EC14 /* AppDelegate.m in Sources */,
 				1823D0221F0E800100C6EC14 /* main.m in Sources */,
+				1823D0561F0E81A400C6EC14 /* HWPopView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
