@@ -38,7 +38,7 @@ static const NSTimeInterval duration = 0.35f;
 - (instancetype)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (sel) {
+    if (self) {
         self.hidesBottomBarWhenPushed = YES;
     }
     return self;
