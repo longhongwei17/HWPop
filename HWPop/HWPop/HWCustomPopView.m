@@ -69,4 +69,9 @@ static const NSTimeInterval duration = 0.35f;
     [super didReceiveMemoryWarning];
 }
 
+- (void)dealloc
+{
+    NSLog(@"====%s",__FUNCTION__);
+}
+
 @end
