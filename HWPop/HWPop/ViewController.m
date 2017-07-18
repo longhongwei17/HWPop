@@ -18,15 +18,28 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.navigationItem.title = @"我是测试";
 }
 
 - (IBAction)pop:(id)sender
 {
-    [[HWCustomPopView new] showInLowWindowLevel];
+    HWCustomPopView *popView = [[HWCustomPopView alloc] init];
+    [popView showInLowWindowLevel];
+//    __weak typeof(self) weakSelf = self;
+//    [popView dismiss:^{
+//        __strong typeof(self) strongSelf = weakSelf;
+//        NSLog(@"calll===>%@",strongSelf.navigationItem.title);
+//    }];
+    
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
+}
+
+- (void)dealloc
+{
+    NSLog(@"dealloc====%s",__FUNCTION__);
 }
 @end
