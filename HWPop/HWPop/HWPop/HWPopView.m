@@ -56,6 +56,7 @@ static const NSTimeInterval animationDuration = 0.05f;
     }];
 }
 
+// just add log
 - (void)didShowAnimation
 {
     // TODO
