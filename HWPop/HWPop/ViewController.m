@@ -20,6 +20,8 @@
 {
     [super viewDidLoad];
     self.navigationItem.title = @"我是测试";
+    
+    NSLog(@"我要提交一次");
 }
 
 // develop
